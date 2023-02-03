@@ -1,0 +1,9 @@
+## How the bot was developed
+
+1. I decided to make a python application that integrates with a third-party API.
+2. I solved the I/O bount load with asynchronous python,
+   And I solved the CPU bount load with C/C++.
+3. I chose Telegram as a client, it's better than writing the frontend myself.
+4. I also recommend using venv
+
+PS. Don't forget to specify your token in bot.py.))
